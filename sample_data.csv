@@ -1,0 +1,4 @@
+Model Name,Data Quality,Bias,Explainability,Robustness,Privacy Compliance
+Model_A,4,3,5,4,5
+Model_B,2,1,3,2,3
+Model_C,5,5,5,5,5
