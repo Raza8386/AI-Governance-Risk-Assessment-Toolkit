@@ -1,0 +1,232 @@
+[
+  {
+    "id": "SDAIA",
+    "shortName": "SDAIA",
+    "name": "SDAIA AI Ethics Principles",
+    "fullName": "Saudi Data & AI Authority — National AI Ethics Principles",
+    "jurisdiction": "Saudi Arabia",
+    "type": "National Regulation / Ethics Framework",
+    "issuer": "Saudi Data & AI Authority (SDAIA)",
+    "year": "2021",
+    "badgeColor": "bg-emerald-100 text-emerald-800 border-emerald-200",
+    "iconColor": "#065F46",
+    "summary": "SDAIA's AI Ethics Principles establish the ethical foundation for responsible AI development and deployment in the Kingdom of Saudi Arabia, aligned with Vision 2030. They define core values and obligations for all organisations developing or operating AI systems within the Kingdom. These principles underpin the Saudi National AI Strategy and are increasingly referenced in regulatory assessments.",
+    "keyRefs": [
+      "SDAIA AI Ethics Principles",
+      "SDAIA National AI Strategy",
+      "SDAIA Regulatory Sandbox Framework"
+    ],
+    "principles": [
+      {
+        "name": "Fairness",
+        "arabic": "العدالة",
+        "description": "AI systems must treat all individuals and groups equitably, avoiding discrimination based on gender, age, nationality, religion, or other protected characteristics. Organisations must evaluate and mitigate bias throughout the AI lifecycle."
+      },
+      {
+        "name": "Reliability & Safety",
+        "arabic": "الموثوقية والسلامة",
+        "description": "AI systems must operate reliably and safely under their intended conditions, with appropriate testing, validation, and monitoring. Failure modes and their consequences must be understood and managed."
+      },
+      {
+        "name": "Privacy & Security",
+        "arabic": "الخصوصية والأمان",
+        "description": "AI systems must respect individuals' privacy rights and incorporate robust security measures to protect data confidentiality, integrity, and availability against misuse and malicious attacks."
+      },
+      {
+        "name": "Inclusiveness",
+        "arabic": "الشمولية",
+        "description": "AI systems should be designed to benefit all segments of society, including marginalised or underserved groups, and should not widen existing societal inequalities."
+      },
+      {
+        "name": "Transparency & Explainability",
+        "arabic": "الشفافية وقابلية التفسير",
+        "description": "AI systems and their decisions must be understandable and explainable to affected individuals, stakeholders, and regulators. Organisations should be able to account for AI decisions when required."
+      },
+      {
+        "name": "Responsibility & Accountability",
+        "arabic": "المسؤولية",
+        "description": "Organisations must accept clear accountability for AI system outcomes and establish governance structures with defined roles, oversight mechanisms, and corrective action processes."
+      }
+    ]
+  },
+  {
+    "id": "PDPL",
+    "shortName": "PDPL",
+    "name": "Personal Data Protection Law",
+    "fullName": "Saudi Personal Data Protection Law (PDPL) — Royal Decree No. M/19",
+    "jurisdiction": "Saudi Arabia",
+    "type": "Data Protection Law",
+    "issuer": "Government of Saudi Arabia",
+    "year": "Enacted 2021 — Effective 17 September 2023",
+    "badgeColor": "bg-blue-100 text-blue-800 border-blue-200",
+    "iconColor": "#1E40AF",
+    "summary": "The PDPL is Saudi Arabia's primary data protection legislation, governing the collection, processing, storage, disclosure, and transfer of personal data. It imposes significant obligations on organisations that process personal data of individuals within the Kingdom, with direct relevance to AI systems that rely on personal data for training, inference, and decision-making. The law grants individuals meaningful rights over their data.",
+    "keyRefs": [
+      "PDPL Article 5 (Consent)",
+      "PDPL Article 18 (Retention)",
+      "PDPL Article 25 (Cross-Border Transfer)",
+      "PDPL Article 32 (Automated Decisions)",
+      "PDPL (General)"
+    ],
+    "principles": [
+      {
+        "name": "Article 5 — Lawful Basis & Consent",
+        "arabic": "المادة 5 — الأساس القانوني والموافقة",
+        "description": "Personal data may only be processed on a lawful basis, including explicit informed consent from the data subject. Consent must be specific, granular, and freely given. AI systems must obtain valid PDPL-compliant consent before processing personal data for training or inference."
+      },
+      {
+        "name": "Article 18 — Data Retention",
+        "arabic": "المادة 18 — الاحتفاظ بالبيانات",
+        "description": "Personal data must not be retained for longer than necessary for the original purpose. Organisations must establish and enforce data retention schedules. AI training datasets containing personal data must comply with applicable retention limits."
+      },
+      {
+        "name": "Article 25 — Cross-Border Data Transfer",
+        "arabic": "المادة 25 — نقل البيانات عبر الحدود",
+        "description": "Personal data may only be transferred outside Saudi Arabia if adequate protection is ensured in the destination jurisdiction, and where required, prior approval from SDAIA / NDMO has been obtained. AI systems using overseas cloud infrastructure may require regulatory approval."
+      },
+      {
+        "name": "Article 32 — Automated Decision-Making",
+        "arabic": "المادة 32 — القرارات الآلية",
+        "description": "Data subjects have rights regarding automated decisions that significantly affect them, including the right to request human review of AI-generated decisions. High-stakes automated decisions (credit, employment, healthcare) require particular care."
+      },
+      {
+        "name": "Data Subject Rights",
+        "arabic": "حقوق أصحاب البيانات",
+        "description": "Individuals have rights to access, correct, delete, and object to the processing of their personal data. AI systems must be designed to support the fulfilment of these rights, including data erasure from training datasets where required."
+      }
+    ]
+  },
+  {
+    "id": "NCA",
+    "shortName": "NCA",
+    "name": "NCA Cybersecurity Controls",
+    "fullName": "National Cybersecurity Authority — Essential Cybersecurity Controls (ECC) & Cloud Cybersecurity Controls (CCC)",
+    "jurisdiction": "Saudi Arabia",
+    "type": "Mandatory Cybersecurity Regulation",
+    "issuer": "National Cybersecurity Authority (NCA)",
+    "year": "ECC: 2018 — CCC: 2021",
+    "badgeColor": "bg-purple-100 text-purple-800 border-purple-200",
+    "iconColor": "#6B21A8",
+    "summary": "The NCA establishes mandatory cybersecurity requirements for government entities and organisations operating critical national infrastructure in Saudi Arabia. The Essential Cybersecurity Controls (ECC) set the baseline security standard, while the Cloud Cybersecurity Controls (CCC) address cloud-hosted systems — directly relevant to AI systems deployed on cloud infrastructure. Non-compliance carries significant regulatory and operational risk.",
+    "keyRefs": [
+      "NCA ECC (Essential Cybersecurity Controls)",
+      "NCA Cloud Cybersecurity Controls"
+    ],
+    "principles": [
+      {
+        "name": "Essential Cybersecurity Controls (ECC)",
+        "arabic": "الضوابط الأساسية للأمن السيبراني",
+        "description": "Mandatory baseline controls covering cybersecurity governance, asset management, identity and access management, data protection, vulnerability management, and incident response. All government-related and critical infrastructure AI systems must comply."
+      },
+      {
+        "name": "Cloud Cybersecurity Controls (CCC)",
+        "arabic": "ضوابط الأمن السيبراني للحوسبة السحابية",
+        "description": "Specific controls for cloud-hosted systems, including data residency requirements (personal and sensitive data must generally remain within Saudi Arabia), cloud service provider security assessments, and shared responsibility frameworks."
+      },
+      {
+        "name": "AI System Security Requirements",
+        "arabic": "متطلبات أمن أنظمة الذكاء الاصطناعي",
+        "description": "AI systems are subject to NCA controls for secure development, vulnerability management, adversarial attack protection, model integrity, and access control to AI inference endpoints and training environments."
+      },
+      {
+        "name": "Third-Party & Supply Chain Security",
+        "arabic": "أمن سلسلة التوريد والجهات الخارجية",
+        "description": "Organisations must assess and manage cybersecurity risks from AI vendors, open-source model providers, and third-party API services. Vendor security assessments and contractual security obligations are required."
+      }
+    ]
+  },
+  {
+    "id": "NIST-AI-RMF",
+    "shortName": "NIST AI RMF",
+    "name": "NIST AI Risk Management Framework",
+    "fullName": "NIST AI Risk Management Framework 1.0 (AI RMF 1.0)",
+    "jurisdiction": "International (US Origin — Globally Adopted)",
+    "type": "Voluntary Risk Management Framework",
+    "issuer": "National Institute of Standards and Technology (NIST)",
+    "year": "January 2023",
+    "badgeColor": "bg-amber-100 text-amber-800 border-amber-200",
+    "iconColor": "#92400E",
+    "summary": "The NIST AI RMF provides a structured, voluntary framework for organisations to identify, assess, and manage AI-related risks throughout the full AI lifecycle. It is widely adopted globally as a best-practice standard and is increasingly referenced by regulators worldwide. The framework complements GCC regulatory requirements and provides practical implementation guidance.",
+    "keyRefs": [
+      "NIST AI RMF - GOVERN-1",
+      "NIST AI RMF - GOVERN-2",
+      "NIST AI RMF - MAP-1",
+      "NIST AI RMF - MAP-5",
+      "NIST AI RMF - MEASURE-2",
+      "NIST AI RMF - MANAGE-4"
+    ],
+    "principles": [
+      {
+        "name": "GOVERN — Organisational AI Risk Culture",
+        "arabic": "الحوكمة",
+        "description": "Establish organisational policies, accountability structures, and a culture of responsible AI. Covers AI risk strategy, senior leadership commitment, roles and responsibilities, risk tolerance, and governance processes. GOVERN-1 addresses risk management policies; GOVERN-2 addresses roles and responsibilities."
+      },
+      {
+        "name": "MAP — Context & Risk Categorisation",
+        "arabic": "التعيين",
+        "description": "Identify and categorise AI risks in context. Understand the AI system's purpose, intended users, stakeholders, operational context, and potential harms. MAP-1 addresses context; MAP-5 addresses impact and harm categories."
+      },
+      {
+        "name": "MEASURE — Risk Analysis & Assessment",
+        "arabic": "القياس",
+        "description": "Analyse and assess AI risks using quantitative and qualitative methods. Includes bias evaluation, performance monitoring, robustness testing, and sociotechnical impact assessment. MEASURE-2 covers testing and evaluation."
+      },
+      {
+        "name": "MANAGE — Risk Treatment & Monitoring",
+        "arabic": "الإدارة",
+        "description": "Prioritise and address identified AI risks. Implement controls, develop incident response procedures, and monitor AI system performance in production. MANAGE-4 covers residual risk and ongoing monitoring."
+      }
+    ]
+  },
+  {
+    "id": "ISO-42001",
+    "shortName": "ISO 42001",
+    "name": "ISO/IEC 42001:2023",
+    "fullName": "ISO/IEC 42001:2023 — Artificial Intelligence Management System (AIMS)",
+    "jurisdiction": "International",
+    "type": "International Management System Standard",
+    "issuer": "International Organization for Standardization (ISO) / International Electrotechnical Commission (IEC)",
+    "year": "December 2023",
+    "badgeColor": "bg-sky-100 text-sky-800 border-sky-200",
+    "iconColor": "#0C4A6E",
+    "summary": "ISO/IEC 42001 is the first international standard for Artificial Intelligence Management Systems (AIMS). It provides requirements and guidance for establishing, implementing, maintaining, and continually improving an AIMS within an organisation. Following the High-Level Structure (HLS) consistent with ISO 9001, ISO 27001, and ISO 27701, it enables integrated implementation. Certification against ISO 42001 provides a recognised signal of responsible AI governance maturity.",
+    "keyRefs": [
+      "ISO 42001 Clause 6.1",
+      "ISO 42001 Clause 6.2",
+      "ISO 42001 Clause 8",
+      "ISO 42001 (General)"
+    ],
+    "principles": [
+      {
+        "name": "Clause 4 — Context of the Organisation",
+        "arabic": "السياق التنظيمي",
+        "description": "Define the internal and external context relevant to AI, identify interested parties and their requirements, and establish the scope of the AI management system. Requires understanding of the organisation's AI use cases and associated risks."
+      },
+      {
+        "name": "Clause 5 — Leadership",
+        "arabic": "القيادة",
+        "description": "Top management must demonstrate visible commitment to responsible AI, establish an AI policy aligned with organisational values, and assign clear roles, responsibilities, and authorities for the AIMS."
+      },
+      {
+        "name": "Clause 6 — Planning",
+        "arabic": "التخطيط",
+        "description": "Address risks and opportunities related to AI systems. Establish AI objectives and plans to achieve them. Clause 6.1 covers risk identification and assessment; Clause 6.2 addresses AI impact assessment and human oversight requirements."
+      },
+      {
+        "name": "Clause 8 — Operation",
+        "arabic": "التشغيل",
+        "description": "Implement operational processes for the development, acquisition, deployment, monitoring, and decommissioning of AI systems. Includes requirements for human oversight mechanisms, data governance, and supply chain management."
+      },
+      {
+        "name": "Clause 9 — Performance Evaluation",
+        "arabic": "تقييم الأداء",
+        "description": "Monitor, measure, analyse, and evaluate the performance of both individual AI systems and the overall AIMS. Conduct internal audits and management reviews. Track AI risk metrics and control effectiveness."
+      },
+      {
+        "name": "Clause 10 — Improvement",
+        "arabic": "التحسين",
+        "description": "Identify and act on opportunities for continual improvement of the AIMS. Manage nonconformities and implement corrective actions. Drive learning from AI incidents, near-misses, and operational experience."
+      }
+    ]
+  }
+]
